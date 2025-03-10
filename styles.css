@@ -1,0 +1,38 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  margin: 0;
+  background: #000000;
+}
+
+#search-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+#country-input {
+  padding: 1rem;
+  width: 20rem;
+  font-size: 1rem;
+}
+
+#search-btn {
+  padding:  1rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+section {  
+  background-color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  margin: 1rem
+}
+
+.country-flag,.neighbor, .border-flag {
+  width: 10rem;
+  height: auto;
+  display: inline-block;
+  margin: 1rem;
+}
+
